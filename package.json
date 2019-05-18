@@ -1,0 +1,23 @@
+{
+  "name": "ml-rating-gce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mrlooquer <hi@mrlooquer.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/compute": "^0.12.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
+}
